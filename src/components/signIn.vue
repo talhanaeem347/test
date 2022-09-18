@@ -1,5 +1,5 @@
 <script setup>
-import { LogInErrors } from "../assets/javaScropt/validate";
+import { LogInErrors, hideBtn, showBtn } from "../assets/javaScropt/validate";
 import { ref } from "vue";
 let email = ref("");
 let password = ref("");
